@@ -1,0 +1,583 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #E5E5E5;
+}
+.container{
+    /* border: 1px solid transparent; */
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 1px solid #E3E7EE;
+    height: 70px;
+}
+.navbar > div{
+    line-height: 50px;
+    /* background-color: dodgerblue; */
+    /* margin: 20px; */
+    text-align: center;
+}
+.nav1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.nav1 > div{
+    line-height: 50px;
+    /* background-color:seagreen; */
+    margin: 20px;
+    text-align: center;   
+}
+.nav2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.nav2 > div{
+    line-height: 50px;
+    /* background-color:seagreen; */
+    margin: 20px;
+    text-align: center;   
+}
+.img{
+    width: 40px;
+    height: 36px;
+    left: 68px;
+    top: 17px;
+}
+.b{
+    width: 95px;
+    height: 29px;
+    left: 117px;
+    top: 21px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.var{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.a{
+    text-decoration: none;
+    color: #000000;
+}
+.dogsnap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+}
+.dogsnap > div {
+    line-height: 50px;
+    /* margin: 20px; */
+    text-align: center;
+    /* background-color: seagreen; */
+    width: 70px;
+}
+.text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.text  > div {
+    /* line-height: 50px; */
+    text-align: center;
+    /* background-color: seagreen; */
+}
+.select{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    margin-top: 50px;
+}
+.select > div {
+    line-height: 50px;
+    text-align: center;
+    /* background-color: seagreen; */
+    margin: 0 10px ;
+   
+}
+.text2a{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.text2a  > div {
+    /* line-height: 50px; */
+    /* margin: 20px; */
+    text-align: center;
+    /* background-color: seagreen; */
+}
+.thumnails{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.thumnails > div {
+    /* line-height: 50px; */
+    margin: 20px 20px;
+    text-align: center;
+    /* background-color: seagreen; */
+    /* width: 400px; */
+}
+.footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    background-color:  #FDFEFF;
+    border: 1px inset #FDFEFF ;
+    /* margin: 20px 0; */
+}
+.footer  > div {
+    /* line-height: 50px; */
+    /* margin: 20px; */
+    text-align: center;
+    /* background-color: seagreen; */
+}
+.foot1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* margin: 20px 0; */
+}
+.foot1 > div {
+    /* line-height: 50px; */
+    /* margin: 20px; */
+    text-align: center;
+    /* background-color: seagreen; */
+    
+}
+.foota{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+    /* border: 1px solid black; */
+}
+.foota > div {
+    /* line-height: 50px; */
+    text-align: left;
+    /* background-color: dodgerblue; */
+}
+.one{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.one > div {
+    /* line-height: 50px; */
+    /* margin: 20px; */
+    text-align: left;
+    /* background-color: seagreen; */
+}
+
+.footb{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+    /* border: 1px solid black; */
+}
+.footb > div {
+    /* line-height: 30px; */
+    margin: 10px;
+    text-align: center;
+    /* background-color: dodgerblue; */
+}
+.footc{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+    /* border: 1px solid black; */
+}
+.footc > div {
+    /* line-height: 0px; */
+    margin: 10px;
+    text-align: center;
+    /* background-color: dodgerblue; */
+}
+.footd{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+    /* border: 1px solid black; */
+}
+.footd > div {
+    /* line-height: 50px; */
+    margin: 10px;
+    text-align: left;
+    /* background-color: dodgerblue; */
+}
+.d1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+    /* border: 1px solid black; */
+}
+.d1 > div {
+    /* line-height: 50px; */
+    /* margin: 20px; */
+    text-align: left;
+    /* background-color: seagreen; */
+}
+.foot2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+    border: 1px inset #E3E7EE;
+}
+.foot2 > div {
+    /* line-height: 50px; */
+    text-align: center;
+    /* background-color: seagreen; */
+    
+}
+.foot2a{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.foot2a > div {
+    /* line-height: 50px; */
+    /* margin: 10px; */
+    text-align: center;
+    /* background-color: dodgerblue; */
+    
+}
+.foot2b{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.foot2b > div {
+    /* line-height: 50px; */
+    /* margin: 10px; */
+    text-align: center;
+    /* background-color: dodgerblue; */
+    
+}
+.foot2c{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.foot2c > div {
+    /* line-height: 50px;
+    margin: 10px; */
+    text-align: center;
+    /* background-color: dodgerblue; */
+    
+}
+.foot2d{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.foot2d > div {
+    /* line-height: 50px; */
+    /* margin: 10px; */
+    text-align: left;
+    /* background-color: dodgerblue; */
+    
+}
+.foot2e{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    /* margin: 20px 0; */
+}
+.foot2e > div {
+    /* line-height: 50px; */
+    /* margin: 10px; */
+    text-align: left;
+    /* background-color: dodgerblue; */
+    
+}
+.f12{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* background-color: dodgerblue; */
+    margin: 10px 0;
+}
+.f12 > div {
+    /* line-height: 50px; */
+    /* margin: 10px; */
+    text-align: left;
+    /* background-color: seagreen; */
+    
+}
+.btn{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:  #EEF3FB;
+    border: transparent;
+}
+.btn:hover{
+    border: 2px solid dodgerblue;
+}
+.breed{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 116px;
+    color: #000000;
+}
+.buttn{
+    width: 264px;
+    height: 46px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.butt{
+    width: 173px;
+    height: 48px;
+    padding-left: 10px;
+}
+.butt:hover{
+    border: 3px solid dodgerblue;
+}
+.buttn:hover{
+    border: 3px solid dodgerblue;
+}
+.apn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.appn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    left: 901px;
+    top: 571px;
+}
+.bold{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+}
+.text2{
+    padding-left: 40px;
+}
+.gmi{
+    opacity: 0.1;
+
+}
+
+.thumnails1{
+    /* background-image: url(/img/Rectangle\ 545.png);
+    background-size: 100% 100%; */
+    width: 350px;
+    height: 456px;
+}
+.gmi:hover{
+    border: 1px solid transparent;
+    opacity: 1;
+}
+.pan{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F718C;
+}
+.pan:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.spa{
+    color: #5F718C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.spa:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.sp{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;  
+}
+.bnt{
+    width: 304px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #E3E7EE;
+    border-radius: 30px;
+    padding-left: 20px;
+    /* background-image: url(/img/Vector.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    cursor: pointer;
+}
+.bnt:hover{
+    border: 3px solid dodgerblue;
+}
+.ftd{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #343434;
+    text-decoration: underline;
+}
+.eng{
+    width: 304px;
+    height: 40px;
+    left: 669px;
+    top: 2738px;
+    background: #FFFFFF;
+    border: 1.2px solid #70788C;
+    border-radius: 10px;
+}
+.eng:hover{
+    border: 3px solid dodgerblue;
+}
+/* @font-face {
+    font-family: dancing;
+    src: url(dancingScript.ttf);
+} */
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.flex > div{
+    text-align: center;
+    line-height: 20px;
+    margin: 20px;
+}
+.flex2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.flex2 > div{
+    text-align: center;
+    /* line-height: 20px; */
+    /* margin: 20px; */
+}
+.flex4{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.flex4 > div{
+    text-align: center;
+    /* line-height: 20px;
+    margin: 20px; */
+}
+.flex5{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.flex5 > div{
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 340px;
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.flex5 > div:hover{
+    border: 2px solid dodgerblue;
+}
+img:hover{
+    border: 2px solid dodgerblue;
+}
+li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5F718C;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+}
+li:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.selectt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5F718C;
+    cursor: pointer;
+    border: none;
+    background-color: #E5E5E5 ;
+    text-align: left;
+}
+.selectt:hover{
+    color: dodgerblue;
+}
+.text:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.text2a:hover{
+    text-decoration:2px underline dodgerblue;
+}
